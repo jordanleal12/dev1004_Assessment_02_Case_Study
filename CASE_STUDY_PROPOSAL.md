@@ -340,6 +340,8 @@ Since SCC does not currently employ containerization, this addresses the impacts
 
 ### Current Frontend Website Pipeline
 
+The following diagram represents the best known estimate of the current CI/CD pipeline employed by SCC for their frontend website projects:
+
 ```mermaid
 flowchart TD
     A[Developer changes code]
@@ -363,6 +365,8 @@ flowchart TD
 ```
 
 ### Proposed Frontend Website Pipeline
+
+The following diagram visualises an implementation of the proposed improvements to the CI/CD pipeline employed by SCC for their frontend website projects:
 
 ```mermaid
 flowchart TD
@@ -411,6 +415,8 @@ flowchart TD
 As SCC case study does not specify the pipeline employed for the API, we will only cover the proposed API pipeline
 
 ### Proposed API Pipeline
+
+The following diagram visualises an implementation of the proposed CI/CD pipeline to be utilized by SCC for their API projects:
 
 ```mermaid
 flowchart TD
